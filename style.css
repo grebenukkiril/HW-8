@@ -1,0 +1,75 @@
+/* вправа 1 */
+
+#greycol{
+    color: gray;
+}
+
+div > div> p{
+    color: red;
+}
+
+div.text-box>h3{
+    color:pink;
+}
+
+div>div+h3+p{
+    color: green;
+}
+
+.yellow{
+    color: yellow;
+}
+
+h3:first-child{
+    color: pink;
+}
+
+div>div+h3{
+    color: #000 !important;
+}
+
+/* вправа2 */
+
+.element_schedule{
+    font-size: 12px;
+}
+
+.element_schedule:hover{
+    font-size: 30px;
+}
+
+li>ul>li:last-of-type{
+    color: blue;
+}
+
+li>ul>li:last-child:hover{
+    color: rgb(119, 93, 235);
+    font-size: 34px;
+}
+
+li>ul>li:first-child{
+    color: rgb(16, 219, 60);
+}
+
+li>ul>li:first-child:hover{
+    color: rgb(80, 122, 11);
+    font-size: 34px;
+}
+
+li>ul>li:nth-child(3){
+    color: rgb(245, 3, 3);
+}
+
+li>ul>li:nth-child(3):hover{
+    color: rgb(102, 46, 37);
+    font-size: 34px;
+}
+
+li>ul>li:nth-child(2){
+    color: rgb(206, 240, 17);
+}
+
+li>ul>li:nth-child(2):hover{
+    color: rgb(121, 141, 47);
+    font-size: 34px;
+}
